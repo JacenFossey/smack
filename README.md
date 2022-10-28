@@ -1,5 +1,5 @@
 # smack
-_Smack is a cli application to generate package folder structures for packages based on PyPi specifications_
+_Smack is a cli application that generates package folder structures for packages based on PyPi specifications_
 
 ## Installation
 ```bash
