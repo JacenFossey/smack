@@ -12,13 +12,13 @@ smack [project-name]
 ```
 ## Folder structure
 ```bash
-[name]_project
-  -src 
-    -[name]
-      -__init__.py
-      -[name].py
-  -tests
-  -LICENSE.txt
-  -pyproject.toml
-  -README.md
+[name]_project/ 
+├─ src/
+│  ├─ [name]/
+│  │  ├─ __init__.py
+│  │  ├─ [name].py
+├─ tests/
+├─ LICENSE
+├─ pyproject.toml
+├─ README.md
 ```
