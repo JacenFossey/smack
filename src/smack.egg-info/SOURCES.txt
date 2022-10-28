@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/smack/__init__.py
+src/smack/smack.py
+src/smack.egg-info/PKG-INFO
+src/smack.egg-info/SOURCES.txt
+src/smack.egg-info/dependency_links.txt
+src/smack.egg-info/entry_points.txt
+src/smack.egg-info/requires.txt
+src/smack.egg-info/top_level.txt

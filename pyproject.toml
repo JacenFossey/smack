@@ -1,0 +1,25 @@
+[project]
+name = "smack"
+version = "0.2.4"
+authors = [
+  { name="Jacen Fossey", email="jhfossey@fossey.ca" },
+]
+description = "Creates a basic folder structure for PyPi projects"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "click"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/JacenFossey/smack"
+"Bug Tracker" = "https://github.com/JacenFossey/smack/issues"
+
+[project.scripts]
+smack = "smack.smack:main"

@@ -1,0 +1,2 @@
+[console_scripts]
+smack = smack.smack:main

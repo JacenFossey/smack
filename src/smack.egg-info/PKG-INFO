@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: smack
+Version: 0.2.4
+Summary: Creates a basic folder structure for PyPi projects
+Author-email: Jacen Fossey <jhfossey@fossey.ca>
+Project-URL: Homepage, https://github.com/JacenFossey/smack
+Project-URL: Bug Tracker, https://github.com/JacenFossey/smack/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# smack
+_Smack is a cli application to create package folder structures for packages based on PyPi specifications_
+
+## Installation
+```bash
+pip install smack
+```
+
+## Usage
+```bash
+smack [project-name]
+```
+## Folder structure
+```bash
+[name]_project
+  -src 
+    -[name]
+      -__init__.py
+      -[name].py
+  -tests
+  -LICENSE.txt
+  -pyproject.toml
+  -README.md
+```
